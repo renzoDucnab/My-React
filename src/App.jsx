@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <Hello />
+      <Hello name="Renzo" message="Hi there!" />
 
       <div>
         <a href="https://vitejs.dev" target="_blank">

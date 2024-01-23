@@ -4,10 +4,10 @@ function displayMessage() {
   return "Wow";
 }
 
-function Hello() {
+function Hello(props) {
   return (
     <div>
-      <h1>Hello from a component! {displayMessage()}</h1>
+      <h1>Hello! {props.message} {props.name} {displayMessage()}</h1>
       <h1>Another element</h1>
     </div>
   );
